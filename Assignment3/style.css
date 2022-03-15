@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+user{
+    margin: 10px;
+    display: inline-block;
+    border: 2px;
+}

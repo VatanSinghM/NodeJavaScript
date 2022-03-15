@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>my first page</title>
+        <link href = "style.css" rel = "stylesheet">
+    </head>
+    <body>
+        <% users.forEach(user=>{%>
+            <div class = "user">
+
+                <img src = "<%= user.image% >" alt = "avatar"/>
+                <h3><%= user.name %> </h3>
+                <p><%= user.email %> </p>
+            </div>
+
+        <%})%>
+
+        <br>
+        <a href = "/form">Add user</a>
+        
+    </body>
+</html>
