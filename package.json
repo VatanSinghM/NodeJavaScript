@@ -1,24 +1,24 @@
 {
-  "name": "10x-nodejs-assignments",
+  "name": "4",
   "version": "1.0.0",
-  "description": "NodeJs assignment for 10x Academy",
+  "description": "4",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "test:file": "jest  --runInBand -t"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "NodeJs"
+    "nodejs"
   ],
-  "author": "Yashendra Goyal",
+  "author": "vatan",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "faker": "^5.5.3",
-    "jest": "^27.4.5",
-    "supertest": "^6.1.6"
-  },
-  "jest": {
-    "testEnvironment": "jsdom"
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "faker": "^5.5.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "nodemon": "^2.0.15"
   }
 }
